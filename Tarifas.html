@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tarifas | LinenBen17</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/Tarifas.css" rel="stylesheet">
+        <link rel="icon" href="https://i.ibb.co/S0CVWJw/logo2.png" type="image/png"/>
+        <link rel="stylesheet" type="" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-89ZPT8LVB2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-89ZPT8LVB2');
+    </script>
+        <script>
+            window.onload = function(){
+                $('#preload').fadeOut();
+                $('body').removeClass('hidden');
+            }
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.menu-toggle').click(function(){
+                    $('.menu-toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            });
+        </script>
+        <!-- script para que funcione al 100% el botón ir arriba -->
+        <script>
+            //invocamos al objeto (window) y a su método (scroll), solo se ejecutara si el usuario hace scroll en la página
+            $(window).scroll(function(){
+            if($(this).scrollTop() > 300){
+                $("#js_up").slideDown(300);
+            }else{ // si no
+                $("#js_up").slideUp(300);
+            }
+            });
+            //creamos una función accediendo a la etiqueta i en su evento click
+            $("#js_up i").on('click', function (e) {
+                e.preventDefault();
+                $("body,html").animate({
+                scrollTop: 0
+            },700);
+                return false;
+            });
+        </script>
+    </head>
+    <body class="hidden">
+        <a href="#" id="js_up" class="boton-subir">
+            <!-- link del icono http://fontawesome.io/icon/rocket/ -->
+            <i class="fa fa-rocket" aria-hidden="true"></i>
+        </a>
+    <!-- Preload -->
+    <div id="preload">
+        <div class="loader">
+        <div class="ball"></div>
+    </div>
+    </div>
+    <!-- header -->
+    <header>
+        <div class="menu-toggle"></div>
+        <img src="https://i.ibb.co/0qjp1RL/Logo.png" id="logo" alt="Logo" border="0">
+        <!-- Barra de Navegacion -->
+            <nav class="" id="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Tarifas.html" class="active">Tarifas</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Portafolio.html">Portafolio</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        <!-- Barra de Progreso -->
+        <div class="container-progressbar">
+            <div class="progressbar"></div>
+        </div>
+        <div class="clearfix"></div>
+        <hgroup>
+            <h1>LinenBen17</h1>
+            <h2>Desarrollo Web</h2>
+        </hgroup>
+        <script src="js/mijs.js"></script>
+    </header>
+    <!-- Section -->
+    <section>
+        <h1 id="ofrece">¿Que Ofrecemos?</h1>
+        <!-- Contenedores #1-->
+        <div class="contenedores1">
+            <div id="efecto" class="primer_contenedor">
+                <h1><i class="fa fa-window-maximize" aria-hidden="true"></i></h1>
+                <h3 style="text-align: center;">Diseño Personalizado</h3>
+                <p>Escoja como se verá su sitio web, y personalícelo a su gusto.</p>
+            </div>
+            <div id="efecto" class="segundo_contenedor">
+                <h1><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+                <h3 style="text-align: center;">Web administrable</h3>
+                <p>Administre las secciones que desee, agregando o quitando lo que desee.</p>
+            </div>
+            <div id="efecto" class="tercer_contenedor">
+                <h1><i class="fa fa-tablet" aria-hidden="true"></i></h1>
+                <h3 style="text-align: center;">Responsive</h3>
+                <p>Su sitio web se adaptará a cualquier dispositivo, Telefonos Moviles, Computadoras
+                Tablets, etc..</p>
+            </div>
+        </div>
+        <h1 id="paquetes">Paquetes Web</h1>
+        <!-- Contenedores #2-->
+        <div class="contenedores2">
+            <!-- Servicio Basico -->
+            <div id="efecto" style="margin-left: 5px;" class="primer_contenedor efecto">
+                <h1><i class="fa fa-laptop" aria-hidden="true"></i></h1>
+                <h1>Servicio Básico</h1>
+                <ul>
+                    <li>Creacion de Una Página <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li>Frontend Responsive <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li>Backend Básico <i id="times" class="fa fa-times" aria-hidden="true"></i></li>
+                    <li>Listo en 1 semana <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li style="border-bottom: none;">Precio: $150.00</li>
+                </ul>
+            </div>
+            <!-- Servicio Estandar -->
+            <div id="efecto" class="segundo_contenedor efecto">
+                <h1><i class="fa fa-table" aria-hidden="true"></i></h1>
+                <h1>Servicio Estandar</h1>
+                <ul>
+                    <li>Creacion de 2 a 4 Paginas <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li>Frontend Responsive <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li>Backend Estándar <i id="times" class="fa fa-times" aria-hidden="true"></i></li>
+                    <li>Listo en 2 semanas <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li style="border-bottom: none;">Precio: $250.00</li>
+                </ul>
+            </div>
+            <!-- Servicio Pro -->
+            <div id="efecto" class="tercer_contenedor efecto">
+                <h1><i class="fa fa-address-card-o" aria-hidden="true"></i></h1>
+                <h1>Servicio Pro</h1>
+                <ul>
+                    <li>Creacion de Varias Paginas <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li>Frontend Responsive <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li>Backend Estándar <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li>Listo en 3 Semanas <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li style="border-bottom: none;">Precio: $400.00</li>
+                </ul>
+            </div>
+            <!-- Servicio Premium -->
+            <div id="efecto" class="cuarto_contenedor efecto">
+                <h1><i class="fa fa-dollar" aria-hidden="true"></i></h1>
+                <h1>Servicio Premium</h1>
+                <ul>
+                    <li>Creacion de Varias Paginas <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li>Frontend Responsive <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li>Backend Estándar <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li>Listo en 4 o 5 Semanas <i id="check" class="fa fa-check" aria-hidden="true"></i></li>
+                    <li style="border-bottom: none;">Precio: $700.00</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Contenedor Anonimo xD -->
+        <div class="contenedor">
+            <div id="efecto" class="admin">
+                <h1><i class="fa fa-envelope" aria-hidden="true"></i></h1>
+                <h3 style="text-align: center;">Contactanos</h3>
+                <p style="text-align: center;">Te intereso aluguna de nuestras ofertas? no olvides
+                <a href="Contacto.html">Contactarnos</a></p>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <!-- Redes Sociales -->
+            <div class="sec aboutus">
+                <h2>Redes Sociales</h2>
+                <ul class="sci">
+                    <li><a style="color: #fff;" target="_blank" href="https://facebook.com/LinenBen17A"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a style="color: #fff;" target="_blank" href="https://www.instagram.com/linen_ben/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a style="color: #fff;" target="_blank" href=""><i class="fa fa-twitter" aria-hidden="true"></i></i></a></li>
+                </ul>
+            </div>
+            <!-- Obtener Links -->
+            <div class="sec quicklinks">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="index.html">Principal</a></li>
+                    <li><a href="Tarifas.html">Precios</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Portafolio.html">Proyectos</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="sec contact">
+                <ul class="info">
+                    <h2>Contactanos</h2>
+                    <li>
+                        <span><i id="contac" class="fa fa-phone" aria-hidden="true"></i></span>
+                        <p><a href="tel:+50259409178">+502 5940-9178</a><br>
+                            <a href="tel:+50242255164">+502 4225-5164</a></p>
+                    </li>
+                    <li>
+                        <span><i id="contac" class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <p><a href="mailto:consultas@linenben17.gq">consultas@linenben17.gq</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="copy">
+                <p>CopyRight © 2020 <span>LinenBen17</span></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        let efecto = document.querySelectorAll('#efecto');
+        function mostrarScroll(){
+            let scrollTop = document.documentElement.scrollTop;
+            for (var i=0; i < efecto.length; i++ ){
+                let alturaAnimado = efecto[i].offsetTop;
+                if(alturaAnimado - 500 < scrollTop){
+                    efecto[i].style.opacity = 1;
+                    efecto[i].classList.add('mostrarL');
+                }
+            }
+        }
+        window.addEventListener('scroll', mostrarScroll, false);
+    </script>
+    </body>
+</html>

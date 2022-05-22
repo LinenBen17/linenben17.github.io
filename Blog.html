@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | LinenBen17</title>
+    <link rel="stylesheet" href="css/Blog.css">
+    <link rel="icon" href="https://i.ibb.co/S0CVWJw/logo2.png" type="image/png"/>
+    <link rel="stylesheet" type="" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-89ZPT8LVB2"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-89ZPT8LVB2');
+        </script>
+    <script>
+        window.onload = function(){
+            $('#preload').fadeOut();
+            $('body').removeClass('hidden');
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+                $('.menu-toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        });
+    </script>
+    <!-- script para que funcione al 100% el botón ir arriba -->
+    <script>
+    //invocamos al objeto (window) y a su método (scroll), solo se ejecutara si el usuario hace scroll en la página
+    $(window).scroll(function(){
+    if($(this).scrollTop() > 300){
+        $("#js_up").slideDown(300);
+      }else{ // si no
+        $("#js_up").slideUp(300);
+    }
+    });
+    //creamos una función accediendo a la etiqueta i en su evento click
+    $("#js_up i").on('click', function (e) {
+        e.preventDefault();
+        $("body,html").animate({
+        scrollTop: 0
+    },700);
+        return false;
+    });
+    </script>
+    </head>
+    <body class="hidden">
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v9.0" nonce="iqo5ejIs"></script>
+        <a href="#" id="js_up" class="boton-subir">
+            <!-- link del icono http://fontawesome.io/icon/rocket/ -->
+            <i class="fa fa-rocket" aria-hidden="true"></i>
+        </a>
+        <!-- Preload -->
+        <div id="preload">
+            <div class="loader">
+                <div class="ball"></div>
+            </div>
+        </div>
+        <!-- header -->
+        <header>
+            <div class="menu-toggle"></div>
+            <img src="https://i.ibb.co/0qjp1RL/Logo.png" alt="Logo" border="0" id="logo">
+            <!-- Barra de Navegacion -->
+                <nav class="" id="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Tarifas.html">Tarifas</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><a href="Portafolio.html">Portafolio</a></li>
+                        <li><a href="Blog.html" class="active">Blog</a></li>
+                    </ul>
+                </nav>
+            <!-- Barra de Progreso -->
+            <div class="container-progressbar">
+                <div class="progressbar"></div>
+            </div>
+            <div class="clearfix"></div>
+            <hgroup>
+                <h1>LinenBen17</h1>
+                <h2>Desarrollo Web</h2>
+            </hgroup>
+            <script src="js/mijs.js"></script>
+        </header>
+        <!-- Section -->
+        <section>
+            <!-- ENTRADAS DEL BLOG -->
+            <div class="entradas">
+                <article>
+                    <h1>Porque Aprender HTML5 y CSS 3</h1>
+                    <h4>28 de Diciembre del 2020</h4>
+                    <div class="contenido">
+                        <img src="https://i.ibb.co/JvKqMqG/yc-Ww-X8-MUh-Uby3-Gqdi-Pv-Lac-N2-Daw5-Ud1-Rqo-Bv-Ek-Hk-l1rmo-QIrg-E4-ZTqly-SL0-WVa-SKxl-N0i-L8dg6o-I.jpg" alt="yc-Ww-X8-MUh-Uby3-Gqdi-Pv-Lac-N2-Daw5-Ud1-Rqo-Bv-Ek-Hk-l1rmo-QIrg-E4-ZTqly-SL0-WVa-SKxl-N0i-L8dg6o-I" border="0">
+                        <p>HTML viene de las Siglas HyperText Markup Language, Se complementa con las Hoja de estilo en cascada llamadas CSS
+                        Que viene de las Siglas Cascading Style Sheets.... Listo! ahora ya sabes la definición de... ¿Porque aprenderlo?..<br>
+                        <a style="margin-top: 10px; display: inline;" href="Entradas_Blog/Porque Aprender HTML y CSS.html">Leer Más</a></p>
+                    </div>
+                </article>
+                <article>
+                    <h1>Que Tan importante es el uso de Una Pagina Web</h1>
+                    <h4>3 de Enero del 2021</h4>
+                    <div class="contenido">
+                        <img src="https://i.ibb.co/wRypXS5/pagina-web-empresa.jpg" alt="yc-Ww-X8-MUh-Uby3-Gqdi-Pv-Lac-N2-Daw5-Ud1-Rqo-Bv-Ek-Hk-l1rmo-QIrg-E4-ZTqly-SL0-WVa-SKxl-N0i-L8dg6o-I" border="0">
+                        <p>¿Que es Una Página Web?
+                            Una página web es un documento o información...
+                            ¿Porque Hacer Uso de ellas Para tu empresa?...
+                            Tener Presencia En Internet..
+                            Amazon....
+                            Apple....
+                            Johnson & Johnson...
+                            Atención Al Cliente...
+                            Servicio Al cliente las 24 horas...
+                            Para Conseguir Clientes Nuevos...
+                            Porque no solo Quedarse Con las Redes Sociales..
+                            compras en linea..
+                            Registrarte, Modificar todo a tu gusto, etc....<br>
+                        <a style="margin-top: 10px; display: inline;" href="Entradas_Blog/Importancia_de_una_web.html">Leer Más</a></p>
+                    </div>
+                </article>
+            </div>
+            <!-- ASIDE -->
+            <div class="aside">
+                <!-- PAGINA DE FACEBOOK -->
+                <h3>Dale Like A Nuestra Pagina de Facebook</h3>
+                    <div style="justify-content: center; display:flex; max-width:100%;" class="fb-page" data-href="https://www.facebook.com/LinenBen17A/" data-tabs="timeline" data-width="788" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/LinenBen17A/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/LinenBen17A/">LinenBen17</a></blockquote></div>
+                <!-- CANAL EL NIGROMANTE -->
+                <h3>Te recomendamos:</h3>
+                <div style="display: flex; justify-content: center;">
+                    <iframe style="max-width: 100%; " width="340" height="315" src="https://www.youtube.com/embed/TtEuPkUp0sU?start=69" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- PAYPAL -->
+                <h3>Ayudanos a Seguir adelante</h3>
+                <form action="https://www.paypal.com/donate" method="post" target="_top" style="display: flex; justify-content:center;">
+                    <input type="hidden" name="hosted_button_id" value="7X8MWTQXUSXJJ" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                    <img alt="" border="0" src="https://www.paypal.com/en_GT/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <!-- Redes Sociales -->
+                <div class="sec aboutus">
+                    <h2>Redes Sociales</h2>
+                    <ul class="sci">
+                        <li><a style="color: #fff;" href="https://facebook.com/LinenBen17A"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a style="color: #fff;" href="https://www.instagram.com/linen_ben/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a style="color: #fff;" href=""><i class="fa fa-twitter" aria-hidden="true"></i></i></a></li>
+                    </ul>
+                </div>
+                <!-- Obtener Links -->
+                <div class="sec quicklinks">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="index.html">Principal</a></li>
+                        <li><a href="Tarifas.html">Precios</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><a href="Portafolio.html">Proyectos</a></li>
+                        <li><a href="Blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="sec contact">
+                    <ul class="info">
+                        <h2>Contactanos</h2>
+                        <li>
+                            <span><i id="contac" class="fa fa-phone" aria-hidden="true"></i></span>
+                            <p><a href="tel:+50259409178">+502 5940-9178</a><br>
+                                <a href="tel:+50242255164">+502 4225-5164</a></p>
+                        </li>
+                        <li>
+                            <span><i id="contac" class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <p><a href="mailto:consultas@linenben17.gq">consultas@linenben17.gq</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copy">
+                    <p>CopyRight © 2020 <span>LinenBen17</span></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
