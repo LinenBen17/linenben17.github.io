@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo" style="color: #111;">Logo<span>.</span></a>
+            <div class="menuToggle" onclick="togglemenu()"></div>
+            <ul class="navigation">
+                <li><a href="index.html#banner" onclick="togglemenu()">Inicio</a></li>
+                <li><a href="index.html#about" onclick="togglemenu()">Acerca de</a></li>
+                <li><a href="index.html#menu" onclick="togglemenu()">Menus</a></li>
+                <li><a href="index.html#expert" onclick="togglemenu()">Fotografías</a></li>
+                <!-- <li><a href="index.html#testimonials" onclick="togglemenu()">Testimonials</a></li> -->
+                <li><a href="index.html#contact" onclick="togglemenu()">Contacto</a></li>
+            </ul>
+        </header>
+        <section class="menu" id="menu">
+            <div class="title">
+                <h2 class="titleText">Cartilla de <span>M</span>enús</h2><br><br>
+            </div>
+            <div class="title">
+                <h2 class="titleText"><span>B</span>uffet's</h2>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog">Buffet 1</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog2">Buffet 2</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog3">Buffet 3</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog4">Buffet 4</a></h3>
+                    </div>
+                </div>
+                <div class="text" style="text-align: center; width: 75%;">
+                    <h3>Cada menú incluye</h3>
+                    1 Opción de carne, guarnición,  ensalada, pan, refresco,  platos de loza, cubiertos,
+                    vaso, servilleta desechable, mesa de buffet, chaifing dish para mantener caliente la comida y personal para atender su buffet.
+                </div>
+                <div class="title">
+                    <h2 class="titleText"><span>C</span>urrascos</h2>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog5">Churrasco de chuleta de cerdo o pollo</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog6">Churrasco de viuda sin hueso</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog7">Churrasco de Lomito o Puyaso</a></h3>
+                    </div>
+                </div>
+                <div class="text" style="text-align: center; width: 75%;">
+                    <h3>Cada menú incluye</h3>
+                    Platos de loza, cubiertos, vaso, servilleta desechable, mesa de buffet, chaifing dish para mantener caliente la comida y personal
+                    para atender su buffet. La carne se parilla en el evento. Aplica restricciones.
+                </div>
+                <div class="title">
+                    <h2 class="titleText">Refacciones y <span>M</span>enús de niños</h2>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog8">Tacos de Pollo</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog9">Empanada tipo Chilena de carne o pollo</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog10">Volovan de carne o pollo</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog11">Hamburguesas con queso</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog12">Hot Dog</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog13">Panes con pollo</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog14">Cachito tipo Crossan de jamón y pollo</a></h3>
+                    </div>
+                </div>
+                <div class="title">
+                    <h2 class="titleText"><span>D</span>esayunos</h2>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog15">Número 1</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog16">Número 2</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog17">Número 3</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog18">Número 4</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog19">Número 5</a></h3>
+                    </div>
+                </div>
+                <div class="title">
+                    <h2 class="titleText"><span>B</span>oquitas</h2>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog20">Saladas Tipicas</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog21">Boquitas Saladas horneadas</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog22">Boquitas dulces</a></h3>
+                    </div>
+                </div>
+                <div class="title">
+                    <h2 class="titleText"><span>P</span>ostres</h2>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog23">Rellenitos</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog24">Cupcakes</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog25">Cupcakes personalizados</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog26">Donas</a></h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog26">Crosaints rellenos</a></h3>
+                    </div>
+                </div>
+                <div class="title">
+                    <h2 class="titleText"><span>M</span>enú Especial</h2>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="images/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3><a class="popup-with-zoom-anim" href="#small-dialog27">De Cochinada o Cerdo</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="box" style="width: 90%;">
+                    <div class="text" style="text-align: justify;">
+                        <h3 style="text-align: center; font-weight: 600;">Todos menús incluyen</h3>
+                        <ul>
+                            <li>Platos, vasos, cubiertos, servilletas. En cristalería o desechable.</li>
+                        </ul>
+                        <br> Con meseros que despachan la comida tipo buffet. Pedido mayor o igual a 100 personas.
+                        Menores de 100 se cobrara por lo minimo un mesero.
+                        <br><br> La bebida es reffill en pedidos mayores o igual a 100.
+                        <br><br> Las opciones de comida son dos que pueden escoger las que deseen. Pedido mayor o igual a 100 personas.
+                        <br><br> Nosotros ponemos todo en el lugar que deseen. Si fuese fuera de la capital se cobra Q9.00 x km.
+                        <br></br> Se recomienda por lo menos contratar un mesero extra precio Q225 x 5 hrs.
+                        <br><br> Se reserva el buffet con el 50 % y el otro 50 % se cancela un día antes de llegar el buffet.
+                        <br><br><h3 style="font-weight: 600;">Contamos con un gran surtido de:</h3>
+                        <ul>
+                            <li>Cristalería</li>
+                            <li>Hielo en cubo, por arroba o por quintal</li>
+                            <li>Churrasqueras</li>
+                            <li>Hieleras grandes y pequeñas</li>
+                            <li>Fuente de chocolate</li>
+                            <li>Cafeteras</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="popups">
+                <div id="small-dialog" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Pierna horneada con salsa morena</li>
+                        <li>Pollo horneado con salsa de hongos</li>
+                        <li>Carne prensada con salsa roja</li>
+                        <li>Chuleta en barbacoa</li>
+                        <li>Pepián de res o pollo</li>
+                        <li>Jocon de res o pollo</li>
+                    </ul>
+                    <b>Q35.00 Por Persona</b>
+                </div>
+                <div id="small-dialog2" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Pechuga rellena o cordón blue de jamón y queso</li>
+                        <li>Pechuga rellena o cordón blue de espinaca con queso</li>
+                        <li>Pechuga empanizada</li>
+                        <li>Lomito de cerdo mechado con salsa blanca</li>
+                        <li>Lomo de cerdo con salsa al vino</li>
+                        <li>Pavo horneado con salsa de hongos</li>
+                    </ul>
+                    <b>Q45.00 Por Persona</b>
+                </div>
+                <div id="small-dialog3" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Lomito de res mechado con salsa</li>
+                        <li>blanca</li>
+                        <li>Lomo de res con salsa al vino</li>
+                    </ul>
+                    <b>Q55.00 Por Persona</b>
+                </div>
+                <div id="small-dialog4" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Lazaña</li>
+                        <li>Fideos alfredoos con salsa blanca, brócoli y pollo</li>
+                        <li>Fideos a la boloñesa con carne y queso</li>
+                    </ul>
+                    <b>Q45.00 Por Persona</b>
+                </div>
+                <div id="small-dialog5" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Frijol, guacamol, arroz o ensalada cesar,</li>
+                        <li>Cebollitas, papa o elote dulce,</li>
+                        <li>Refresco natural reffill</li>
+                        <li>4 tortillas por persona</li>
+                    </ul>
+                    <b>Q40.00 Por Persona</b>
+                </div>
+                <div id="small-dialog6" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Chirmol, longaniza o chorizo, cebollita, y picante.</li>
+                        <li>De las siguientes guarniciones puede elegir tres a su gusto: Frijol, guacamol, arroz, fideos, pure, ensalada la que guste, papa, elote dulce.</li>
+                        <li>Refresco natural reffill y café.</li>
+                        <li>4 tortillas p/pers</li>
+                    </ul>
+                    <b>Q55.00 Por Persona</b>
+                </div>
+                <div id="small-dialog7" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Chirmol</li>
+                        <li>Frijol, guacamol, arroz o ensalada cesar,</li>
+                        <li>Cebollitas, papa o elote dulce,</li>
+                        <li>Refresco natural reffill</li>
+                        <li>4 tortillas por persona</li>
+                    </ul>
+                    <b>Q75.00 Por Persona</b>
+                </div>
+                <div id="small-dialog8" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Papalinas</li>
+                        <li>Fresco natural</li>
+                    </ul>
+                    <b>Q20.00 Por Persona</b>
+                </div>
+                <div id="small-dialog9" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Papalinas</li>
+                        <li>Fresco natural, gaseosa o café</li>
+                    </ul>
+                    <b>Q20.00 Por Persona. <br> Con postre Q28.00</b>
+                </div>
+                <div id="small-dialog10" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Papalinas</li>
+                        <li>Fresco natural o café</li>
+                    </ul>
+                    <b>Q18.00 Por Persona.</b>
+                </div>
+                <div id="small-dialog11" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Papalinas</li>
+                        <li>Fresco natural, gaseosa o café</li>
+                    </ul>
+                    <b>Q20.00 Por Persona.</b>
+                </div>
+                <div id="small-dialog12" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Papalinas</li>
+                        <li>Fresco natural, gaseosa o café</li>
+                    </ul>
+                    <b>Q20.00 Por Persona.</b>
+                </div>
+                <div id="small-dialog13" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Papalinas</li>
+                        <li>Fresco natural, gaseosa o café</li>
+                    </ul>
+                    <b>Q20.00 Por Persona.</b>
+                </div>
+                <div id="small-dialog14" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Papalinas</li>
+                        <li>Fresco natural, gaseosa o café</li>
+                    </ul>
+                    <b>Q20.00 Por Persona.</b>
+                </div>
+                <div id="small-dialog15" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Huevos Revueltos con jamón o con tomate y cebolla</li>
+                        <li>Frijoles Volteados, Crema o Queso</li>
+                        <li>Plátanos Fritos o cocidos</li>
+                        <li>Chirmol</li>
+                        <li>Longaniza o chorizo</li>
+                        <li>Jugo de Naranja o Café</li>
+                        <li>Pan.</li>
+                    </ul>
+                    <b>Q32.00 Por Persona.</b>
+                </div>
+                <div id="small-dialog16" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Huevos Revueltos, con jamon o con tomate y cebolla</li>
+                        <li>Frijoles Volteados</li>
+                        <li>Crema o Queso</li>
+                        <li>Platanos Fritos o cocidos</li>
+                        <li>Café</li>
+                        <li>Pan Frances.</li>
+                    </ul>
+                    <b>Q27.00 Por Persona.</b>
+                </div>
+                <div id="small-dialog17" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Omelette de huevo con frijoles volteados</li>
+                        <li>Crema o queso</li>
+                        <li>Jugo de naranja</li>
+                        <li>Café</li>
+                        <li>Pan.</li>
+                    </ul>
+                    <b>Q37.00 Por Persona.</b>
+                </div>
+                <div id="small-dialog18" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>2 Panqueques con:</li>
+                        <li>Miel</li>
+                        <li>Fruta</li>
+                        <li>Granola</li>
+                        <li>Yogurt.</li>
+                        <li>Café y jugo.</li>
+                    </ul>
+                    <b>Q32.00 Por Persona.</b>
+                </div>
+                <div id="small-dialog19" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Tamal Especial</li>
+                        <li>Café</li>
+                        <li>Pan.</li>
+                    </ul>
+                    <b>Q22.00 Por Persona.</b>
+                </div>
+                <div id="small-dialog20" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Taquitos de res</li>
+                        <li>Dobladitas de res</li>
+                        <li>Chilitos rellenos</li>
+                        <li>Chuchos rojos</li>
+                        <li>Chuchos de chipilín</li>
+                        <li>Enchiladas</li>
+                        <li>Tostadas de carne, de frijol y tortillas de res.</li>
+                    </ul>
+                    <b>Q200.00 El ciento.</b>
+                </div>
+                <div id="small-dialog21" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Mini pizzas</li>
+                        <li>Tartaletas de pollo, jamón con queso, maní, rusa y tocino.</li>
+                        <li>Empanadas con carne</li>
+                        <li>Volovanes de queso</li>
+                        <li>Palitos de jamón, queso, carne de res y pollo</li>
+                        <li>Servilletas bebes.</li>
+                    </ul>
+                    <b>Q225.00 El ciento.</b>
+                </div>
+                <div id="small-dialog22" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Enrollados de manzana</li>
+                        <li>Pie de higo y de fresa</li>
+                        <li>Brazo gitano</li>
+                        <li>Bolitas de chocolate y coco</li>
+                        <li>Tartaletas de coco, fresa, caramelo, higo y chocolate</li>
+                        <li>Cartuchitos de higo, empanadas y relámpagos.</li>
+                    </ul>
+                    <b>Q225.00 El ciento.</b>
+                </div>
+                <div id="small-dialog23" class="zoom-anim-dialog mfp-hide small">
+                    <b>Q5.00</b>
+                </div>
+                <div id="small-dialog24" class="zoom-anim-dialog mfp-hide small">
+                    <b>Q8.00 </b>
+                </div>
+                <div id="small-dialog25" class="zoom-anim-dialog mfp-hide small">
+                    <b>Q12.00</b>
+                </div>
+                <div id="small-dialog26" class="zoom-anim-dialog mfp-hide small">
+                    <b>Q10.00</b>
+                </div>
+                <div id="small-dialog27" class="zoom-anim-dialog mfp-hide small">
+                    <ul>
+                        <li>Cerdo asado con salsa especial que incluye 10 onzas  de carne de cerdo por persona exhibido a las brasas el día del evento</li>
+                        <li>3 guarniciones a su elección condimento a su elección chimichurri o barbacoa</li>
+                        <li>Chile en escabeche</li>
+                        <li>Tortillas elaboradas en el lugar</li>
+                        <li>Platos  y cubiertos</li>
+                        <li>Vasos, picheles,  entraditas de chicharrones y carnitas</li>
+                        <li>Longanizas o chorizos artesanales,  acompañadas de picado de rábano</li>
+                        <li>Chirmol.</li>
+                    </ul>
+                    <b>Q80.00 Por persona. <br> Mínimo de personas: 100</b>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="title">
+                <h2 class="titleText"><span>C</span>ontactanos</h2>
+                <p>Con sus plumas te cubrirá,
+                    Y debajo de sus alas estarás seguro;
+                    Escudo y adarga es su verdad. SALMO 91:4</p>
+            </div>
+            <form class="contactForm" action="contacto.php" method="POST">
+                <h3>Envianos un Mensaje</h3>
+                <div class="inputBox">
+                    <input type="text" name="nombre" placeholder="Nombre Completo">
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="telefono" placeholder="Telefono">
+                </div>
+                <div class="inputBox">
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <textarea placeholder="Mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+        <div class="copyrightText">
+            <p>Copyright 2021 <a href="https://linenben17.gq">LinenBen17</a>. All Right Reserved</p>
+        </div>
+        <script>
+            window.addEventListener('scroll', function(){
+                const header = document.querySelector('header');
+                header.classList.toggle("sticky", window.scrollY > 0);
+            });
+            
+            function togglemenu() {
+                const menuToggle = document.querySelector(".menuToggle");
+                const navigation = document.querySelector(".navigation");
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+            }
+            $(document).ready(function() {
+                $('.popup-with-zoom-anim').magnificPopup({
+                    type: 'inline',
+
+                    fixedContentPos: false,
+                    fixedBgPos: true,
+
+                    overflowY: 'auto',
+
+                    closeBtnInside: true,
+                    preloader: true,
+                    
+                    midClick: true,
+                    removalDelay: 300,
+                    mainClass: 'my-mfp-zoom-in'
+                });
+            });
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    </body>
+</html>
