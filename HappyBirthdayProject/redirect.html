@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/redirect.css">
+	<title>Happy</title>
+</head>
+<body>
+	<script>
+		const playSound = function() {
+			var sonido = new Audio("asa.mp3");
+			sonido.play();
+			sonido.volume = "0.07";
+			document.removeEventListener('click', playSound);
+		}
+		document.addEventListener('click', playSound);
+	</script>
+	<!-- PRIMER NIVEL -->
+	<div class="firstLevel" id="firstLevel">
+		<!-- Card principal:) -->
+		<div class="box">
+			<div class="glass"></div>
+			<div class="content">
+				<h2>Oliiiss:3<3</h2>
+				<p>Bueno, esta es la "sorpresa" JSJSJS:3, espero realmente no hayas tenido una total decepción:(, traté de hacer lo mejor que pude, sí?:'3. Espero realmente que te guste y agh, el día de hoy no te la estés pasando nada mal, en la siguiente carta está tu "felicitación" xd, es demasiado corta pq no tenía espacio xd, TEAMOOO CUMPLEAÑERA:"3<3</p>
+			</div>
+		</div>
+	</div>
+	<!-- SEGUNDO NIVEL -->
+	<div class="secondLevel">
+		<div class="card">
+			<div class="imgBox">
+				<div class="bark"></div>
+				<img src="https://i.ibb.co/mS8smJm/as.jpg">
+			</div>
+			<div class="details">
+				<h4 class="color1">Cada día más cerca:D<3</h4>
+				<h4 class="color2 margin">(FELIZ CUMPLEAÑOS<3)</h4>
+				<p>Querida princesita,</p>
+				<p>Espero que el día de hoy te la pases demasiado bien, que sea un día lleno de bendiciones para ti y muy feliz, Deseo que cumplas muchísimos más y no olvides que teamo mucho:'3.</p>
+				<p>Hoy cumples 16 hermosos años, y no sabes lo feliz que me pone saberlo, gracias por existir y sobre todo gracias por llegar a mi vida.</p>
+				<p class="text-right">Felisss Cumpleaños miniña hermosa y perfecta!</p>
+				<p class="text-right">Linen♥</p>
+			</div>
+		</div>
+	</div>
+	<div class="button">
+		<button type="button" id="neonShadow" class="nextCard">Siguiente Carta:3</button>
+	</div>
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript" src="js/confeti.js"></script>
+	<script type="text/javascript" src="js/nextCard.js"></script>
+</body>
+</html>
