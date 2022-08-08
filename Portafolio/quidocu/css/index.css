@@ -1,0 +1,160 @@
+/* Header, Nav */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+header nav{
+	background: #00B3A7;
+}
+section:nth-child(2){
+	background: #DCE4F1;
+}
+section .title h1{
+	font-size: 50pt;
+	color: #36A29E;
+	font-weight: 600;
+}
+section .title a{
+	background: #09B0A6;
+	color: #FFF;
+	top: 80%;
+	left: 55%;
+}
+section .social span i{
+	background: #00b3a6;
+}
+section .ventajas h2{
+	color: #36A29E;
+	font-weight: 600;
+}
+section .ventajas h4{
+	color: #36A29E;
+	font-weight: 600;
+}
+section .ventajas span i{
+	font-size: 65px;
+	background: #DCE3F1;
+	padding: 30px;
+	border-radius: 100%;
+	color: #27A1A3;
+}
+section:nth-child(4){
+	padding: 50px;
+	background: #231F20;
+}
+section:nth-child(4) h2{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 45px;
+}
+section:nth-child(4) a{
+	background: #FFF;
+	color: #231F20;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+section:nth-child(5){
+	background: #DCE4F1;
+}
+section:nth-child(5) h2{
+	color: #36A29E;
+	font-weight: 600;
+}
+section:nth-child(6) h2{
+	color: #36A29E;
+	font-weight: 600;
+}
+section .owl-carousel{
+	top: 50px;
+}
+section .owl-carousel .card-carousel{
+	background: #CFD7E4;
+	color: #000;
+}
+section .owl-carousel .card-carousel span i{
+	color: #36A29E;
+}
+section .owl-carousel .card-carousel span{
+	color: #36A29E;
+}
+section .card{
+	border: none;
+}
+section .card .row{
+	background: #CFD7E4;
+	width: 80%;
+}
+section .card a{
+	background: #09B0A6;
+	color: #FFF;
+	top: 80%;
+	left: 50%;
+}
+section .owl-carousel .user{
+	top: -50px;
+}
+section .owl-carousel .owl-stage-outer{
+	overflow: visible;
+}
+.owl-item > div {
+  	cursor: pointer;
+  	margin: 6% 8%;
+  	transition: margin 1s;
+}
+.owl-item.center > div {
+  	cursor: auto;
+  	margin: 0;
+	box-shadow: -2px -1px 15px 1px rgba(0,0,0,0.76);
+}
+@media (max-width: 1400px){
+	section .card a{
+		left: 45%;
+	}
+}
+@media (max-width: 1200px) {
+	section .card a{
+		left: 30%;
+	}
+}
+@media (max-width: 992px) {
+	section .card{
+		display: flex;
+		align-items: center;
+	}
+	section .card a{
+		top: 85%;
+		left: 30%;
+	}
+}
+@media (max-width: 768px){
+	section .card{
+		display: flex;
+		align-items: center;
+	}
+	section .card .row{
+		width: 100%;
+		left: 50%;
+	}
+	section .card a{
+		top: 85%;
+		left: 25%;
+	}
+}
+@media (max-width: 576px){
+	section .title h1{
+		font-size: 30pt;
+	}
+	section .card a{
+		top: 85%;
+		left: 15%;
+	}
+	section:nth-child(4){
+		padding: 50px 0;
+	}
+}
+@media (max-width: 390px){
+	section .card a{
+		left: 5%
+	}
+}
