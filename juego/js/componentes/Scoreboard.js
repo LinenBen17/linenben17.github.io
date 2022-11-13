@@ -14,5 +14,9 @@ export class Scoreboard{
 	incrementPoint(points){
 		this.score += points;
 		this.scoreText.setText('SCORE: ' + this.score);
+
+		if (this.score / 100 >= 1) {
+			console.log("MAS");
+		}
 	}
 }

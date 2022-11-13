@@ -69,7 +69,6 @@ export class Game extends Phaser.Scene {
 		this.scoreboard.incrementPoint(1);
 
 		let relativeImpact = ball.x - platform.x;
-		console.log(ball.x, platform.x, relativeImpact);
 
 		if (relativeImpact < 0.1 && relativeImpact > -0.1) {
 			ball.setVelocityX(Phaser.Math.Between(-10, 10));
