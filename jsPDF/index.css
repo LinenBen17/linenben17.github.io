@@ -70,3 +70,10 @@ p{
 @page{
 	margin: 0;
 }
+@media print{
+	/* indicamos el salto de pagina */
+	.break{
+		display:block;
+		page-break-before:always;
+	}
+}
