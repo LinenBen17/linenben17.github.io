@@ -16,7 +16,7 @@
 	width: fit-content;
 	padding-top: .5cm;
 	padding-left: 1.1cm;
-	color: red;
+	color: #000;
 	font-size: 14pt;
 	display: grid; 
 	grid-template-columns: 1fr 1fr; 
