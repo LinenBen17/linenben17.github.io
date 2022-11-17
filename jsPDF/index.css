@@ -12,27 +12,50 @@
 	background-image: url('a.jpg');
 }
 .guia{
+	width: fit-content;
+	padding-top: .5cm;
+	padding-left: 2cm;
 	color: red;
-	font-size: 12pt;
+	font-size: 14pt;
+	display: grid; 
+	grid-template-columns: 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr; 
+	gap: 22px 0px; 
+	grid-template-areas: 
+	"guiaMadre fecha"
+	"piezas de"
+	"origen destino"; 
 }
+.guiaMadre { grid-area: guiaMadre; }
+.fecha { grid-area: fecha; }
+.piezas { grid-area: piezas; }
+.de { grid-area: de; }
+.origen { grid-area: origen; }
+.destino { grid-area: destino; }
+
 p{
 	margin: 0;
 	padding: 0;
 }
-.guiaMadre {
+/*.guiaMadre {
 	position: absolute;
 	margin-top: .5cm;
 	margin-left: 2cm;
 }
+.fecha {
+	position: absolute;
+	margin-top: .5cm;
+	margin-left: 4.3cm;
+}
 .piezas {
 	position: absolute;
 	margin-top: 1.5cm;
-	margin-left: 2cm;
+	margin-left: 2.3cm;
 }
 .de {
 	position: absolute;
 	margin-top: 1.5cm;
-	margin-left: 4.5cm;
+	margin-left: 4.9cm;
 }
 .origen {
 	position: absolute;
@@ -43,7 +66,7 @@ p{
 	position: absolute;
 	margin-top: 3cm;
 	margin-left: 4.5cm;
-}
+}*/
 @page{
 	margin: 0;
 }

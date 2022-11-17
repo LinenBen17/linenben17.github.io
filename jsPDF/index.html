@@ -11,6 +11,7 @@
 	<div class="canvas" id="canvas">
 		<div class="guia">
 			<p class="guiaMadre"></p>
+			<p class="fecha"></p>
 			<p class="piezas"></p>
 			<p class="de"></p>
 			<p class="origen"></p>
@@ -34,13 +35,24 @@
 	</form>
 
 	<script>
-		let contador;
+		// DATE
+		var today = new Date();
+		var day = today.getDate();
+		var month = today.getMonth() + 1;
+		var year = today.getFullYear();
+		var fecha = `${month}/${day}/${year}`;
+
+		$('.fecha').text(fecha);
+
+		let contadorDe;
+		let piezas;
 		let print = $('.print');
 		let datos = [$('#guiaMadre'), $('#piezas'), $('#de'), $('#origen'), $('#destino')]
 		let etiquetas = [$('.guiaMadre'), $('.piezas'), $('.de'), $('.origen'), $('.destino')]
 
 		print.click(()=>{
-			imprSelec('canvas')
+			console.log(contadorDe, piezas);
+			imprSelec('canvas');
 		})
 
 		//Change data when writing
@@ -49,13 +61,17 @@
 		})
 		datos[1].keyup(()=>{
 			etiquetas[1].text(datos[1].val());
-
 		})
-		datos[1].change(()=>{
-			console.log("A");
+		datos[1].blur(()=>{
+			piezas = parseInt(datos[1].val());
+			console.log("PIEZA: " + piezas);
 		})
 		datos[2].keyup(()=>{
 			etiquetas[2].text(datos[2].val());
+		})
+		datos[2].blur(()=>{
+			contadorDe = parseInt(datos[2].val());
+			console.log("DE: " + contadorDe);
 		})
 		datos[3].keyup(()=>{
 			etiquetas[3].text(datos[3].val());
@@ -70,12 +86,26 @@
 			ventana.document.write('<html><head><title>' + document.title + '</title>');
 			ventana.document.write('<link rel="stylesheet" href="index.css">'); //Aquí agregué la hoja de estilos
 			ventana.document.write('</head><body >');
-			ventana.document.write(ficha.innerHTML);
+			//ventana.document.write('<div class="canvas"></div>')
+			for(var i = piezas; i <= contadorDe; i++){
+				ventana.document.write(
+					ficha.innerHTML = `
+						<div class="guia">
+							<p class="guiaMadre">${datos[0].val()}</p>
+							<p class="fecha">${fecha}</p>
+							<p class="piezas">${i}</p>
+							<p class="de">${datos[2].val()}</p>
+							<p class="origen">${datos[3].val()}</p>
+							<p class="destino">${datos[4].val()}</p>
+						</div>
+					`
+				);
+			}
 			ventana.document.write('</body></html>');
 			ventana.document.close();
 			setTimeout(()=>{
 				ventana.print( );
-				ventana.close();
+				ventana.close( );
 			}, 100)
 		}
 	</script>
