@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: sans-serif;
 }
 .canvas{
 	width: 11.5cm;
@@ -14,13 +15,13 @@
 .guia{
 	width: fit-content;
 	padding-top: .5cm;
-	padding-left: 2cm;
+	padding-left: 1.1cm;
 	color: red;
 	font-size: 14pt;
 	display: grid; 
 	grid-template-columns: 1fr 1fr; 
 	grid-template-rows: 1fr 1fr 1fr; 
-	gap: 22px 0px; 
+	gap: 22px 20px; 
 	grid-template-areas: 
 	"guiaMadre fecha"
 	"piezas de"
@@ -28,10 +29,10 @@
 }
 .guiaMadre { grid-area: guiaMadre; }
 .fecha { grid-area: fecha; }
-.piezas { grid-area: piezas; }
-.de { grid-area: de; }
-.origen { grid-area: origen; }
-.destino { grid-area: destino; }
+.piezas { grid-area: piezas; text-align: center;}
+.de { grid-area: de; text-align: center;}
+.origen { grid-area: origen; text-align: center;}
+.destino { grid-area: destino; text-align: center;}
 
 p{
 	margin: 0;
