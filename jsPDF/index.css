@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.canvas{
+	width: 11.5cm;
+	height: 5cm;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('a.jpg');
+}
+.guia{
+	color: red;
+	font-size: 12pt;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.guiaMadre {
+	position: absolute;
+	margin-top: .5cm;
+	margin-left: 2cm;
+}
+.piezas {
+	position: absolute;
+	margin-top: 1.5cm;
+	margin-left: 2cm;
+}
+.de {
+	position: absolute;
+	margin-top: 1.5cm;
+	margin-left: 4.5cm;
+}
+.origen {
+	position: absolute;
+	margin-top: 3cm;
+	margin-left: 2cm;
+}
+.destino {
+	position: absolute;
+	margin-top: 3cm;
+	margin-left: 4.5cm;
+}
+@page{
+	margin: 0;
+}
