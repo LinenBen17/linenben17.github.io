@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+/* Body y head */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.canvas{
+	width: 21.5cm;
+	height: 7cm;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('e.jpg');
+}
+.guia {
+	width: 715px;
+	padding-top: 1.099cm;
+	padding-left: 1.9cm;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	". formapago"
+    "datosRemitente datosDestinatario"
+    ". codigoCliente"
+    ". horario"; 
+}
+
+.datosRemitente {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 5px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	"remitente remitente remitente"
+	"dirRemitente dirRemitente dirRemitente"
+	"telRemitente telRemitente origen";
+	grid-area: datosRemitente;
+}
+
+.remitente { grid-area: remitente; }
+
+.dirRemitente { grid-area: dirRemitente; }
+
+.telRemitente { grid-area: telRemitente; }
+
+.origen {
+	grid-area: origen;
+	font-size: 13pt;
+}
+.formapago{
+	grid-area: formapago;
+}
+.codigoCliente{
+	grid-area: codigoCliente;
+}
+.datosDestinatario {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "destinatario destinatario destinatario"
+    "dirDestinatario dirDestinatario dirDestinatario"
+    "telDestinatario telDestinatario destino";
+  grid-area: datosDestinatario;
+}
+
+.destinatario { grid-area: destinatario; }
+
+.dirDestinatario { grid-area: dirDestinatario; }
+
+.telDestinatario { grid-area: telDestinatario; }
+
+.destino {
+	grid-area: destino;
+	font-size: 13pt;
+}
+.horario {
+	padding-left: 4.2cm;
+	margin-top: -.5cm;
+	grid-area: horario;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: normal;
+	align-items: normal;
+	align-content: normal;
+}
+.horario p{
+	padding-right: 15px;
+}
+.formapago p{
+    padding-top: 1cm;
+    padding-left: 4cm;
+}
+.codigoCliente p{
+	padding-top: 0.5cm;
+    padding-left: 1.2cm;
+}
+p{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 9pt;
+}
+/*.guiaMadre {
+	position: absolute;
+	margin-top: .5cm;
+	margin-left: 2cm;
+}
+.fecha {
+	position: absolute;
+	margin-top: .5cm;
+	margin-left: 4.3cm;
+}
+.piezas {
+	position: absolute;
+	margin-top: 1.5cm;
+	margin-left: 2.3cm;
+}
+.de {
+	position: absolute;
+	margin-top: 1.5cm;
+	margin-left: 4.9cm;
+}
+.origen {
+	position: absolute;
+	margin-top: 3cm;
+	margin-left: 2cm;
+}
+.destino {
+	position: absolute;
+	margin-top: 3cm;
+	margin-left: 4.5cm;
+}*/
+@page{
+	margin: 0;
+}
+@media print{
+	/* indicamos el salto de pagina */
+	.break{
+		display:block;
+		page-break-before:always;
+	}
+}
