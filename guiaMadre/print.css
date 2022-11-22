@@ -18,14 +18,13 @@
 	padding-left: 1.9cm;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 	gap: 0px 0px;
 	grid-auto-flow: row;
 	grid-template-areas:
 	". formapago"
     "datosRemitente datosDestinatario"
-    ". codigoCliente"
-    ". horario"; 
+    ". codigoCliente"; 
 }
 
 .datosRemitente {

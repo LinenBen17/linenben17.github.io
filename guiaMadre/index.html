@@ -9,7 +9,28 @@
 </head>
 <body>
 
-	<div class="canvas" id="canvas"></div>
+	<div class="canvas" id="canvas">
+              <div class="guia">
+              <div class="formapago">
+                <p class="">Credito</p>
+              </div>
+              <div class="datosRemitente">
+                <p class="remitente">IMPORTADORA FIESTA Y CIA LTDA</p>
+                <p class="dirRemitente">2 CALLE 37-71 ZONA 11 COLONIA TOLEDO GUATEMALA</p>
+                <p class="telRemitente">2509-3741</p>
+                <p class="origen">CAP</p>
+              </div>
+              <div class="datosDestinatario">
+                <p class="destinatario">DIONISIA VERONICA  RAMOS</p>
+                <p class="dirDestinatario">ALDEA SAN JSE CHIQUIILAJA   XELA</p>
+                <p class="telDestinatario">59115279 </p>
+                <p class="destino">XEL</p>
+              </div>
+              <div class="codigoCliente">
+                <p>1234567890</p>
+              </div>
+            </div> 
+  </div>
 
 	<section>
 <form method="POST" role="form" class="form-inline" action="{% url 'impa:imp_new' %}">
@@ -173,7 +194,7 @@
 			//ventana.document.write('<div class="canvas"></div>')
 			for(var i = numInicial; i <= numFinal; i++){
 				ventana.document.write(
-					ficha.innerHTML =`
+				`
 						<div class="guia">
 							<div class="formapago">
 								<p class="">${$('#id_fpago').val()}</p>
@@ -200,7 +221,7 @@
 								<p class="hora">${hour}:${minutes}</p>
 							</div>
 						</div>
-						<div class="break"></div>
+            <div class="break"></div>
 					`
 				);
 			}
