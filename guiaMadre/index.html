@@ -10,26 +10,28 @@
 <body>
 
 	<div class="canvas" id="canvas">
-              <div class="guia">
-              <div class="formapago">
-                <p class="">Credito</p>
-              </div>
-              <div class="datosRemitente">
-                <p class="remitente">IMPORTADORA FIESTA Y CIA LTDA</p>
-                <p class="dirRemitente">2 CALLE 37-71 ZONA 11 COLONIA TOLEDO GUATEMALA</p>
-                <p class="telRemitente">2509-3741</p>
-                <p class="origen">CAP</p>
-              </div>
-              <div class="datosDestinatario">
-                <p class="destinatario">DIONISIA VERONICA  RAMOS</p>
-                <p class="dirDestinatario">ALDEA SAN JSE CHIQUIILAJA   XELA</p>
-                <p class="telDestinatario">59115279 </p>
-                <p class="destino">XEL</p>
-              </div>
-              <div class="codigoCliente">
-                <p>1234567890</p>
-              </div>
-            </div> 
+    <div class="guia">
+      <div class="formapago">
+        <p class="">Credito</p>
+      </div>
+      <div class="datos">
+        <div class="datosRemitente">
+          <p class="remitente">IMPORTADORA FIESTA Y CIA LTDA</p>
+          <p class="dirRemitente">2 CALLE 37-71 ZONA 11 COLONIA TOLEDO GUATEMALA ASASDAHJAS ASJKDHA ASJKDAJS A</p>
+          <p class="telRemitente">2509-3741</p>
+          <p class="origen">CAP</p>
+        </div>
+        <div class="datosDestinatario">
+          <p class="destinatario">DIONISIA VERONICA  RAMOS</p>
+          <p class="dirDestinatario">ALDEA SAN JSE CHIQUIILAJA   XELA</p>
+          <p class="telDestinatario">59115279 </p>
+          <p class="destino">XEL</p>
+        </div>
+      </div>
+      <div class="codigoCliente">
+        <p>1234567890</p>
+      </div>
+    </div> 
   </div>
 
 	<section>
@@ -199,18 +201,20 @@
 							<div class="formapago">
 								<p class="">${$('#id_fpago').val()}</p>
 							</div>
-							<div class="datosRemitente">
-								<p class="remitente">${$('#id_remitente').val()}</p>
-								<p class="dirRemitente">${$('#id_dirrem').val()}</p>
-								<p class="telRemitente">${$('#id_tel').val()}</p>
-								<p class="origen">${$('#id_origen').val()}</p>
-							</div>
-							<div class="datosDestinatario">
-								<p class="destinatario">${$('#id_destinatario').val()}</p>
-								<p class="dirDestinatario">${$('#id_dirdes').val()}</p>
-								<p class="telDestinatario">${$('#id_teldes').val()}</p>
-								<p class="destino">${$('#id_destino').val()}</p>
-							</div>
+              <div class="datos">
+                <div class="datosRemitente">
+                  <p class="remitente">${$('#id_remitente').val()}</p>
+                  <p class="dirRemitente">${$('#id_dirrem').val()}</p>
+                  <p class="telRemitente">${$('#id_tel').val()}</p>
+                  <p class="origen">${$('#id_origen').val()}</p>
+                </div>
+                <div class="datosDestinatario">
+                  <p class="destinatario">${$('#id_destinatario').val()}</p>
+                  <p class="dirDestinatario">${$('#id_dirdes').val()}</p>
+                  <p class="telDestinatario">${$('#id_teldes').val()}</p>
+                  <p class="destino">${$('#id_destino').val()}</p>
+                </div>
+              </div>
 							<div class="codigoCliente">
 								<p>${$('#id_codigo_cliente').val()}</p>
 							</div>
