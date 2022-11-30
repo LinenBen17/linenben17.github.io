@@ -112,36 +112,13 @@ p{
 	padding: 0;
 	text-transform: uppercase;
 }
-/*.guiaMadre {
-	position: absolute;
-	margin-top: .5cm;
-	margin-left: 2cm;
+img.logo {
+    position: relative;
+    width: 18%;
+    max-width: 200px;
+    top: 20px;
+    left: 20px;
 }
-.fecha {
-	position: absolute;
-	margin-top: .5cm;
-	margin-left: 4.3cm;
-}
-.piezas {
-	position: absolute;
-	margin-top: 1.5cm;
-	margin-left: 2.3cm;
-}
-.de {
-	position: absolute;
-	margin-top: 1.5cm;
-	margin-left: 4.9cm;
-}
-.origen {
-	position: absolute;
-	margin-top: 3cm;
-	margin-left: 2cm;
-}
-.destino {
-	position: absolute;
-	margin-top: 3cm;
-	margin-left: 4.5cm;
-}*/
 @page{
 	margin: 0;
 }
