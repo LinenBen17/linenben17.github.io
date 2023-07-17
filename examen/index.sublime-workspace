@@ -1,0 +1,692 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"ft",
+				"font-family"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"read",
+				"ready\t$(document).ready"
+			],
+			[
+				"fo",
+				"focus\t.focus()"
+			],
+			[
+				"quer",
+				"querySelectorAll"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"ech",
+				"echo\tPHP: echo string"
+			],
+			[
+				"GET",
+				"$_GET\tGET['…']"
+			],
+			[
+				"prin",
+				"print_r()"
+			],
+			[
+				"requi",
+				"require_once"
+			],
+			[
+				"at",
+				"autocomplete"
+			],
+			[
+				"POS",
+				"$_POST\tPOST['…']"
+			],
+			[
+				"POST",
+				"$_POST\tPOST['…']"
+			],
+			[
+				"clas",
+				"class\tPHP: class"
+			],
+			[
+				"pu",
+				"pub\tPHP: public method"
+			],
+			[
+				"fore",
+				"foreach\tPHP: foreach value"
+			],
+			[
+				"contro",
+				"controlreclamos"
+			],
+			[
+				"Control",
+				"ControlReclamos"
+			],
+			[
+				"n",
+				"new"
+			],
+			[
+				"control",
+				"controlreclamos"
+			],
+			[
+				"con",
+				"conectar"
+			],
+			[
+				"cla",
+				"class\tPHP: class"
+			],
+			[
+				"dele",
+				"deleteUsers"
+			],
+			[
+				"thi",
+				"this\tPHP: $this->"
+			],
+			[
+				"print",
+				"print_r()"
+			],
+			[
+				"fu",
+				"fun\tPHP: function"
+			],
+			[
+				"int",
+				"intval()"
+			],
+			[
+				"tr",
+				"try\tPHP: try catch"
+			],
+			[
+				"get",
+				"getPermisos"
+			],
+			[
+				"pr",
+				"pri\tPHP: private method"
+			],
+			[
+				"create",
+				"createUsers"
+			],
+			[
+				"contr",
+				"controlUsuarios"
+			],
+			[
+				"fun",
+				"fun\tPHP: function"
+			],
+			[
+				"forea",
+				"foreach\tPHP: foreach value"
+			],
+			[
+				"dat",
+				"datos"
+			],
+			[
+				"while",
+				"while\tPHP: while"
+			],
+			[
+				"whil",
+				"while\tPHP: while"
+			],
+			[
+				"fet",
+				"fetch_array"
+			],
+			[
+				"ret",
+				"ret\tPHP: return"
+			],
+			[
+				"edit",
+				"btnEditar"
+			],
+			[
+				"senten",
+				"sentenciaPermisosUser"
+			],
+			[
+				"sq",
+				"sqlPermisos"
+			],
+			[
+				"p",
+				"prepare"
+			],
+			[
+				"permi",
+				"permisos"
+			],
+			[
+				"arr",
+				"array()"
+			],
+			[
+				"vard",
+				"var_dump()"
+			],
+			[
+				"whi",
+				"while\tPHP: while"
+			],
+			[
+				"ro",
+				"roles"
+			],
+			[
+				"grid",
+				"grid-template-areas"
+			],
+			[
+				"gri",
+				"grid-template-columns"
+			],
+			[
+				"di",
+				"die()"
+			],
+			[
+				"_PO",
+				"$_POST\tPOST['…']"
+			],
+			[
+				"req",
+				"req\tPHP: require file"
+			],
+			[
+				"heade",
+				"header()"
+			],
+			[
+				"head",
+				"header()"
+			],
+			[
+				"exe",
+				"exec"
+			],
+			[
+				"permiso",
+				"permisosNuevos"
+			],
+			[
+				"var",
+				"var_dump()"
+			],
+			[
+				"perm",
+				"permisosAgregar"
+			],
+			[
+				"permisos",
+				"permisosEliminar"
+			],
+			[
+				"Permisos",
+				"permisosNuevos"
+			],
+			[
+				"per",
+				"permisosNuevos"
+			],
+			[
+				"permis",
+				"permisosActuales"
+			],
+			[
+				"sente",
+				"sentenciaEliminarPermisos"
+			],
+			[
+				"res",
+				"resultado"
+			],
+			[
+				"resu",
+				"resultado"
+			],
+			[
+				"asig",
+				"asignacion"
+			],
+			[
+				"asso",
+				"assocAsignaciones"
+			],
+			[
+				"ass",
+				"assocAsignaciones"
+			],
+			[
+				"assoc",
+				"assocAsignaciones"
+			],
+			[
+				"resultadoPer",
+				"resultadosPermisos"
+			],
+			[
+				"sql",
+				"sqlPermisos"
+			],
+			[
+				"id",
+				"idPermiso"
+			],
+			[
+				"resul",
+				"resultadoPermiso"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"re",
+				"req\tPHP: require file"
+			],
+			[
+				"obten",
+				"obtenerSecciones"
+			],
+			[
+				"tes",
+				"test\tQUnit test"
+			],
+			[
+				"file",
+				"filePath"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"fi",
+				"filePath"
+			],
+			[
+				"getElem",
+				"getElementsByTagName"
+			],
+			[
+				"getEle",
+				"getElementsByTagName"
+			],
+			[
+				"datos",
+				"datosFiles"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"foto",
+				"fotoProducto"
+			],
+			[
+				"rem",
+				"remove\t.remove()"
+			],
+			[
+				"app",
+				"append\t.append()"
+			],
+			[
+				"fot",
+				"foto_producto"
+			],
+			[
+				"mos",
+				"mostrarDocumento"
+			],
+			[
+				"car",
+				"carta_reclamo"
+			],
+			[
+				"jso",
+				"json_encode()"
+			],
+			[
+				"json",
+				"json_encode()"
+			],
+			[
+				"cli",
+				"click\t.click()"
+			],
+			[
+				"corre",
+				"correo_cliente"
+			],
+			[
+				"--c",
+				"--colorsecondary"
+			],
+			[
+				"-",
+				"--colorprimary"
+			],
+			[
+				"--",
+				"--colorsecondary"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/carlos/ejercicio2/tigre.html",
+		"/C/xampp/htdocs/carlos/ejercicio2/quetzal.html",
+		"/C/xampp/htdocs/carlos/ejercicio2/menu.html",
+		"/C/xampp/htdocs/carlos/ejercicio2/leon.html",
+		"/C/xampp/htdocs/carlos/ejercicio2/aguila.html",
+		"/C/xampp/htdocs/carlos/familia/menu.html",
+		"/C/xampp/htdocs/carlos/familia/titulo.html",
+		"/C/xampp/htdocs/carlos/familia/familia.html",
+		"/C/xampp/htdocs/carlos/familia/listas.html",
+		"/C/xampp/htdocs/jose/menu.html",
+		"/C/xampp/htdocs/jose/listas.html",
+		"/C/xampp/htdocs/jose/familia.html",
+		"/C/xampp/htdocs/lesly/ejercicio2/tigre.html",
+		"/C/xampp/htdocs/lesly/ejercicio2/quetzal.html",
+		"/C/xampp/htdocs/lesly/ejercicio2/leon.html",
+		"/C/xampp/htdocs/lesly/ejercicio2/aguila.html",
+		"/C/xampp/htdocs/lesly/ejercicio2/marquesina.html",
+		"/C/xampp/htdocs/lesly/ejercicio2/menu.html",
+		"/C/xampp/htdocs/lesly/familia/titulo.html",
+		"/C/xampp/htdocs/lesly/familia/menu.html",
+		"/C/xampp/htdocs/lesly/familia/listas.html",
+		"/C/xampp/htdocs/lesly/familia/familia.html",
+		"/C/xampp/htdocs/milton/listas.html",
+		"/C/xampp/htdocs/milton/menu.html",
+		"/C/xampp/htdocs/milton/familia.html",
+		"/C/xampp/htdocs/oscar/titulo.html",
+		"/C/xampp/htdocs/oscar/menu.html",
+		"/C/xampp/htdocs/oscar/listas.html",
+		"/C/xampp/htdocs/oscar/familia.html",
+		"/C/xampp/htdocs/bryan/listas.html",
+		"/C/xampp/htdocs/bryan/familia.html",
+		"/C/xampp/htdocs/ivan/ejercicio2/tigre.html",
+		"/C/xampp/htdocs/ivan/ejercicio2/quetzal.html",
+		"/C/xampp/htdocs/ivan/ejercicio2/menu.html",
+		"/C/xampp/htdocs/ivan/ejercicio2/marquesina.html",
+		"/C/xampp/htdocs/ivan/ejercicio2/leon.html",
+		"/C/xampp/htdocs/ivan/ejercicio2/aguila.html",
+		"/C/xampp/htdocs/ivan/familia/familia.html",
+		"/C/xampp/htdocs/ivan/familia/menu.html",
+		"/C/xampp/htdocs/ivan/familia/titulo.html",
+		"/C/xampp/htdocs/ivan/familia/listas.html",
+		"/C/xampp/htdocs/familia/listas.html",
+		"/C/Users/aesqu/AppData/Local/Temp/Rar$DRa10812.2824/index/familia/index.html",
+		"/C/xampp/htdocs/familia/familia.html",
+		"/C/xampp/htdocs/index/listas.html",
+		"/C/xampp/htdocs/index/familia.html",
+		"/C/xampp/htdocs/index/titulo.html",
+		"/C/xampp/htdocs/index/menu.html",
+		"/C/xampp/htdocs/index/index.html",
+		"/C/xampp/htdocs/ejercicio2/index.html",
+		"/C/xampp/htdocs/ejercicio2/menu.html",
+		"/C/xampp/htdocs/ejercicio2/marquesina.html",
+		"/C/xampp/htdocs/ejercicio2/aguila.html",
+		"/C/xampp/htdocs/ejercicio2/quetzal.html",
+		"/C/xampp/htdocs/ejercicio2/leon.html",
+		"/C/xampp/htdocs/ejercicio2/tigre.html",
+		"/C/Users/aesqu/Downloads/index.html",
+		"/C/xampp/htdocs/public_html/tracking/impresionMadres.php",
+		"/C/xampp/htdocs/public_html/tracking/css/printMadre.css",
+		"/C/Users/aesqu/AppData/Local/Temp/fz3temp-2/printMadre.css",
+		"/C/xampp/htdocs/public_html/tracking/getGuiaMadre.php",
+		"/C/xampp/htdocs/public_html/tracking/css/dashboard.css",
+		"/C/Users/aesqu/AppData/Local/Temp/fz3temp-2/consulta.php",
+		"/C/Users/aesqu/AppData/Local/Temp/fz3temp-2/conexion.php",
+		"/C/xampp/htdocs/public_html/tracking/impresionHijas.php",
+		"/C/xampp/htdocs/public_html/tracking/seccionesUrls.php",
+		"/C/Users/aesqu/Downloads/bdstandar.sql",
+		"/C/xampp/htdocs/sistemaJRMVC/View/principal.php",
+		"/C/xampp/htdocs/sistemaJRMVC/index.php",
+		"/C/xampp/htdocs/sistemaJRMVC/Controller/C_router.php",
+		"/C/xampp/htdocs/sistemaJRMVC/.htaccess",
+		"/C/xampp/htdocs/sistemaJRMVC/Controller/C_login.php",
+		"/C/xampp/htdocs/sistemaJRMVC/View/shared/navigation.php",
+		"/C/xampp/htdocs/sistemaJRMVC/View/shared/view.php",
+		"/C/xampp/htdocs/sistemaJRMVC/Model/M_login.php",
+		"/C/xampp/htdocs/sistemaJRMVC/View/controlUsuarios.php",
+		"/C/xampp/htdocs/sistemaJRMVC/Model/M_controlReclamos.php",
+		"/C/xampp/htdocs/sistemaJRMVC/Model/M_controlUsuario.php",
+		"/C/xampp/htdocs/public_html/reclamo.php",
+		"/C/xampp/htdocs/public_html/tracking/guarda.php",
+		"/C/xampp/htdocs/sistemaJRMVC/Model/Conexion.php",
+		"/C/xampp/htdocs/sistemaJRMVC/principal.php",
+		"/C/xampp/htdocs/public_html/tracking/conexion.php",
+		"/C/xampp/htdocs/public_html/tracking/Model/Conexion.php",
+		"/C/xampp/htdocs/public_html/tracking/pilotos.php",
+		"/C/xampp/htdocs/public_html/tracking/eliminar.php",
+		"/C/xampp/htdocs/public_html/tracking/LICENCIA.md",
+		"/C/xampp/htdocs/public_html/tracking/crearUsuarios.php",
+		"/C/xampp/htdocs/public_html/tracking/controlReclamos.php",
+		"/C/xampp/htdocs/jsPDF/index.html",
+		"/C/xampp/htdocs/public_html/tracking/validacionSesion.php",
+		"/C/xampp/htdocs/public_html/tracking/css/print.css",
+		"/C/xampp/htdocs/jsPDF/print.css",
+		"/C/Users/aesqu/AppData/Local/Temp/fz3temp-2/validacionSesion.php",
+		"/C/Users/aesqu/AppData/Local/Temp/fz3temp-2/userImg.php",
+		"/C/xampp/htdocs/public_html/tracking/print.html",
+		"/C/xampp/htdocs/jsPDF/index.css",
+		"/C/xampp/htdocs/public_html/tracking/editar.php",
+		"/C/xampp/htdocs/public_html/tracking/principal.php",
+		"/C/xampp/htdocs/public_html/tracking/validacionSeccion.php",
+		"/C/xampp/htdocs/public_html/tracking/subirGuia.php",
+		"/C/xampp/htdocs/public_html/tracking/controlUsuarios.php",
+		"/C/xampp/htdocs/public_html/tracking/navigation.php",
+		"/C/xampp/htdocs/public_html/tracking/index.php",
+		"/C/Users/aesqu/OneDrive/Escritorio/guarda.php",
+		"/C/xampp/htdocs/public_html/tracking/userImg.php",
+		"/C/xampp/htdocs/public_html/tracking/pruebaPermisos.php",
+		"/C/xampp/htdocs/public_html/crearReclamos.html",
+		"/C/xampp/htdocs/public_html/tracking/viewer.html",
+		"/C/xampp/htdocs/public_html/tracking/obtenerDatos.php",
+		"/C/xampp/htdocs/public_html/consulta.php",
+		"/C/xampp/htdocs/public_html/js/index.js",
+		"/C/xampp/htdocs/public_html/css/index.css",
+		"/C/xampp/htdocs/public_html/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
