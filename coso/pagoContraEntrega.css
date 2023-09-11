@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 21.5cm;
+    height: 13.8cm;
+    background: #FFF;
+}
+p{
+    color: #000;
+    position: absolute;
+}
+.noBoleta{
+    left: 17cm;
+    top: 2.5cm;
+}
+.pilotoResponsable{
+    left: 5cm;
+    top: 4.5cm;
+}
+.noGuia{
+    left: 5cm;
+    top: 5.5cm;
+}
+.nombreDes{
+    top: 6.3cm;
+    left: 6cm;
+}
+.direccionEntrega{
+    top: 7.2cm;
+    left: 6cm;
+}
+.valorMerca{
+    top: 8.2cm;
+    left: 5.5cm;
+}
+.costoEnvio{
+    top: 8.2cm;
+    left: 11cm;
+}
+.recargoCincoPor{
+    top: 9.2cm;
+    left: 5.5cm;
+}
+.depositarCliente{
+    top: 10cm;
+    left: 5.5cm;
+}
+.noCuenta{
+    top: 11cm;
+    left: 4cm;
+}
+.banco{
+    top: 12cm;
+    left: 3cm;
+}
+.agencia{
+    top: 4.5cm;
+    left: 17cm;
+}
+.fechaRecolecta{
+    top: 5.5cm;
+    left: 17cm;
+}
+.noTelefono{
+    top: 6.3cm;
+    left: 17cm;
+}
+.fechaEntrega{
+    top: 7.2cm;
+    left: 17cm;
+}
+.formaPagoEnvio{
+    top: 8.2cm;
+    left: 17cm;
+}
+.pagoTotalRecibir{
+    top: 9.2cm;
+    left: 17cm;
+}
+.boletaDeposito{
+    top: 10cm;
+    left: 14cm;
+}
+.cuantaNombre{
+    top: 11cm;
+    left: 14cm;
+}
+.wp{
+    top: 12cm;
+    left: 14cm;
+}
+@page{
+	margin: 0;
+}
+@media print{
+	/* indicamos el salto de pagina */
+	.break{
+		display:block;
+		page-break-before:always;
+	}
+}
