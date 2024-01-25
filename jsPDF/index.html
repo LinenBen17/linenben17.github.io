@@ -79,9 +79,15 @@
 							<p class="origen">${datos[3].val()}</p>
 							<p class="destino">${datos[4].val()}</p>
 						</div>
-						<div class="break"></div>
 					`
 				);
+				if (i < contadorDe) {
+					ventana.document.write(
+						ficha.innerHTML = `
+							<div class="break"></div>
+						`
+					)
+				}
 			}
 			ventana.document.write('</body></html>');
 			ventana.document.close();
