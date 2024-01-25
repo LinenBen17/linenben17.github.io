@@ -6,6 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.canvas{
+	display:none;
+}
 body {
     background: #CDCDCD;
     background: linear-gradient(90deg, #071A2C 50%, #123B1A 50%);
