@@ -1,8 +1,14 @@
+@font-face {
+  font-family: 'Draft';
+  src: url('DOTMATRI.TTF') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Epson1";
+	font-family: "Draft";
 }
 .canvas{
 	width: 11.5cm;
