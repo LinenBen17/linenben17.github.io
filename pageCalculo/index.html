@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Final Cálculo | Criterio de la Primera Derivada</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <!-- Botones de navegación -->
+    <button id="scroll-up" class="scroll-btn">⬆ Subir</button>
+    <button id="scroll-down" class="scroll-btn">⬇ Bajar</button>
+
+    <!-- Sección de Inicio -->
+    <div class="section" id="inicio">
+        <div class="container">
+            <div class="title">
+                <h1>Sección de Inicio</h1>
+            </div>
+            <div class="description">
+                <p>
+                    Bienvenidos a nuestro proyecto final de cálculo. Aquí encontrarás información sobre uno de los temas
+                    más importantes que hemos visto durante el curso. Espero disfrutes de la lectura y sea de aporte a
+                    tu conocimiento académico.
+                </p>
+                <br />
+                <p>
+                    Nuestros nombres son <strong>Aaron Benjamín Esquite Castillo</strong> con número de carné
+                    <strong>9941-24-1935</strong> y <strong>Cristian Saúl Lemus Véliz</strong> con número de carné
+                    <strong>9941-24-393</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de Concepto -->
+    <div class="section">
+        <div class="container">
+            <div class="title">
+                <h1>1.1 Concepto y Definición</h1>
+            </div>
+            <div class="description">
+                <hr>
+                <br>
+                <h2>Concepto del Criterio de la Primera Derivada</h2>
+                <br>
+                <p>
+                    El criterio de la primera derivada es un método del cálculo diferencial que permite analizar el
+                    comportamiento de una
+                    función en cuanto a su crecimiento o decrecimiento. También sirve para identificar los puntos donde
+                    la función alcanza
+                    máximos o mínimos relativos, basándose en el signo de su derivada.
+                </p>
+                <br>
+                <hr>
+                <br>
+                <h2>Definición del Criterio de la Primera Derivada</h2>
+                <br>
+                <p>
+                    Dada una función <code>𝑓(𝑥)</code> derivable en un intervalo abierto, se cumple lo siguiente:
+                </p>
+                <p>
+                    Si <code>𝑓′(𝑥) &gt; 0</code>, entonces <code>𝑓(𝑥)</code> es creciente.<br />
+                    Si <code>𝑓′(𝑥) &lt; 0</code>, entonces <code>𝑓(𝑥)</code> es decreciente.<br />
+                    Si <code>𝑓′(𝑥)</code> cambia de positivo a negativo, hay un <strong>máximo
+                        relativo</strong>.<br />
+                    Si <code>𝑓′(𝑥)</code> cambia de negativo a positivo, hay un <strong>mínimo relativo</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tema y subtemas -->
+    <div class="section">
+        <div class="container">
+            <div class="title">
+                <h1>1.2 Criterio de la primera Derivada</h1>
+            </div>
+            <div class="description">
+                <p>De este tema se desglosan los siguientes subtemas:</p>
+                <ul>
+                    <li>Crecimiento y decrecimiento de funciones</li>
+                    <li>Puntos críticos</li>
+                    <li>Máximos y mínimos relativos</li>
+                    <li>Tablas de signos</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Información general -->
+    <div class="section">
+        <div class="container">
+            <div class="title">
+                <h1>1.3 Información General</h1>
+            </div>
+            <div class="description">
+                <p>
+                    El análisis de la primera derivada
+                <pre>𝑓′(𝑥)</pre> proporciona información crucial sobre la forma de una función
+                <pre>𝑓(𝑥),</pre>
+                A partir de esta:
+                <br><br>
+                </p>
+                <p>
+                    Si <code>𝑓′(𝑥) &gt; 0</code>, entonces <code>𝑓(𝑥)</code> es creciente.<br />
+                    Si <code>𝑓′(𝑥) &lt; 0</code>, entonces <code>𝑓(𝑥)</code> es decreciente.<br />
+                    Si <code>𝑓′(𝑥) = 0</code> o no existe, se puede tener un punto crítico, posible máximo o mínimo (o
+                    punto de
+                    inflexión).
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ejemplos -->
+    <div class="section">
+        <div class="container">
+            <div class="title">
+                <h1>1.4 Ejemplos</h1>
+            </div>
+            <div class="description">
+                <p><strong>Problema:</strong><br>
+                    Analiza los intervalos de crecimiento, decrecimiento y los extremos relativos de la función:
+                </p>
+                <pre>f(x) = x³ - 3x² + 2</pre>
+
+                <p><strong>Paso 1: Derivar la función</strong></p>
+                <pre>f′(x) = 3x² - 6x</pre>
+
+                <p><strong>Paso 2: Encontrar los puntos críticos</strong></p>
+                <pre>3x² - 6x = 0 ⇒ 3x(x - 2) = 0</pre>
+                <pre>Puntos críticos: x = 0 y x = 2</pre>
+
+                <p><strong>Paso 3: Analizar el signo de <code>f′(x)</code> en los intervalos</strong></p>
+                <ul>
+                    <li>Intervalo 1: <code>(−∞, 0)</code> → Probar con <code>x = −1</code>:
+                        <pre>f′(−1) = 3 + 6 = 9 &gt; 0 ⇒ Creciente</pre>
+                    </li>
+                    <li>Intervalo 2: <code>(0, 2)</code> → Probar con <code>x = 1</code>:
+                        <pre>f′(1) = 3 − 6 = −3 &lt; 0 ⇒ Decreciente</pre>
+                    </li>
+                    <li>Intervalo 3: <code>(2, ∞)</code> → Probar con <code>x = 3</code>:
+                        <pre>f′(3) = 27 − 18 = 9 &gt; 0 ⇒ Creciente</pre>
+                    </li>
+                </ul>
+
+                <p><strong>Conclusión:</strong></p>
+                <ul>
+                    <li><code>f(x)</code> es creciente en <code>(−∞, 0)</code> y <code>(2, ∞)</code></li>
+                    <li><code>f(x)</code> es decreciente en <code>(0, 2)</code></li>
+                    <li><code>x = 0</code> es un <strong>máximo relativo</strong></li>
+                    <li><code>x = 2</code> es un <strong>mínimo relativo</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ejercicio demostrativo -->
+    <div class="section">
+        <div class="container">
+            <div class="title">
+                <h1>1.5 Ejercicio Demostrativo</h1>
+            </div>
+            <div class="description">
+                <p></p>
+                <a href="https://drive.google.com/file/d/1tzS5KMSeCKIQcN2N0XKVtuHJAl0jTFbT/view?usp=sharing"
+                    target="_blank">Click Aquí
+                    para visualizar el video</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Problemas propuestos -->
+    <div class="section">
+        <div class="container">
+            <div class="title">
+                <h1>1.6 Problemas Propuestos</h1>
+            </div>
+            <div class="description">
+                <ul>
+                    <li>Determina los intervalos de crecimiento, decrecimiento y los extremos relativos de la función:
+
+                        <pre>f(x) = x² - 4x + 3</pre>
+                    </li>
+                    <li>Analiza el comportamiento de la función usando el criterio de la primera derivada:
+
+                        <pre>f(x) = x³ - 6x² + 9x</pre>
+                    </li>
+                    <li>Usa el criterio de la primera derivada para determinar los extremos relativos y el
+                        comportamiento de la siguiente
+                        función:
+
+                        <pre>f(x) = 2x³ + 3x² - 12x</pre>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagina web que resuelve este tipo de problemas xd -->
+    <div class="section">
+        <div class="container">
+            <div class="title">
+                <h1>Herramientas para la resolución de este tema</h1>
+            </div>
+            <div class="description">
+                <p>
+                    <a href="https://www.desmos.com/calculator">Desmos</a> es una calculadora gráfica en línea que
+                    permite graficar funciones y analizar su comportamiento. Puedes usarla para visualizar la primera
+                    derivada de una función y determinar sus intervalos de crecimiento y decrecimiento.
+                    <br><br>
+                    <a href="https://www.wolframalpha.com/">WolframAlpha</a> Wolfram Alpha es un motor de respuestas
+                    desarrollado por Wolfram Research. Funciona como un servicio en línea que
+                    responde a consultas fácticas computando respuestas a partir de datos y cálculos. Se utiliza en
+                    diversas áreas como
+                    matemáticas, ciencia y tecnología.
+
+                    Escribe la función de esta manera: <strong>analyze (4x^3)-(4x^2)-(12x)+9</strong>
+                    <br>
+                    <!-- <iframe src="https://www.wolframalpha.com/" width="100%" height="500"></iframe> -->
+                </p>
+            </div>
+        </div>
+
+        <script>
+            const sections = document.querySelectorAll('.section');
+            let currentSection = 0;
+
+            document.getElementById('scroll-down').addEventListener('click', () => {
+                if (currentSection < sections.length - 1) {
+                    currentSection++;
+                    sections[currentSection].scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+
+            document.getElementById('scroll-up').addEventListener('click', () => {
+                if (currentSection > 0) {
+                    currentSection--;
+                    sections[currentSection].scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+
+            window.addEventListener('scroll', () => {
+                let fromTop = window.scrollY + window.innerHeight / 2;
+                sections.forEach((section, i) => {
+                    if (section.offsetTop <= fromTop) {
+                        currentSection = i;
+                    }
+                });
+            });
+        </script>
+</body>
+
+</html>
